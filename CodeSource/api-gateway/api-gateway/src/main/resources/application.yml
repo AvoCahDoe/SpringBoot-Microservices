@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product-composite
+          uri: lb://product-composite-service
+          predicates:
+            - Path=/product-composite/**
+        - id: products-root
+          uri: lb://product-service
+          predicates:
+            - Path=/products
+        - id: products
+          uri: lb://product-service
+          predicates:
+            - Path=/products/**
+        - id: reviews
+          uri: lb://review-service
+          predicates:
+            - Path=/reviews/**
+        - id: recommendations
+          uri: lb://recommendation-service
+          predicates:
+            - Path=/recommendations/**

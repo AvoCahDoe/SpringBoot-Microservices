@@ -1,0 +1,6 @@
+Place screenshots here so README-ALL.md can reference them.
+
+Expected filenames:
+- eureka-dashboard.png
+- zipkin-traces.png
+- gateway-forwarded-port.png
