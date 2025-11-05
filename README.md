@@ -1,4 +1,4 @@
-# Microservices Project – All-in-One Guide
+# Microservices Project
 
 ![Eureka Dashboard](docs/images/str.png)
 
