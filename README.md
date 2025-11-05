@@ -1,6 +1,7 @@
 # Microservices Project – All-in-One Guide
 
-This document consolidates everything we set up and verified across the microservices system: service discovery, configuration management, API Gateway routing and auth, load balancer logging, circuit breakers and fallbacks, metrics, tracing, and practical test steps. It also reserves spots for screenshots to illustrate the running system.
+![Eureka Dashboard](docs/images/str.png)
+
 
 ## Table of Contents
 - Architecture Overview
